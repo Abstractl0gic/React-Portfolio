@@ -1,35 +1,36 @@
 import React from 'react';
 import Project from './Project';
+import TravelImage from '../images/Travel.png';
+import CollabicImage from '../images/Collabic.png';
 
 const projects = [
   {
-    id: 1,
-    title: 'Project 1',
-    imageUrl: process.env.PUBLIC_URL + '/images/project1.png',
-    deployedLink: 'https://example.com/project1',
-    githubLink: 'https://github.com/example/project1'
+    title: 'Travel Agent App',
+    description: 'Description of the Travel Agent App project.',
+    imageUrl: TravelImage,
+    projectUrl: 'https://coridane.github.io/travelagentapp/',
+    technologies: ['React', 'Redux', 'Firebase'],
   },
   {
-    id: 2,
-    title: 'Project 2',
-    imageUrl: process.env.PUBLIC_URL + '/images/project2.png',
-    deployedLink: 'https://example.com/project2',
-    githubLink: 'https://github.com/example/project2'
+    title: 'Collabic',
+    description: 'Description of the Collabic Project.',
+    imageUrl: CollabicImage,
+    projectUrl: 'https://glacial-basin-24494-f41b4848533d.herokuapp.com/',
+    technologies: ['Node.js', 'Express', 'MongoDB'],
   },
-  // Add more project objects as needed
 ];
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div className="projects">
-        {projects.map(project => (
-          <Project key={project.id} project={project} />
+      <h2>My Projects</h2>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <Project key={index} project={project} />
         ))}
       </div>
     </section>
   );
-}
+};
 
 export default Portfolio;
