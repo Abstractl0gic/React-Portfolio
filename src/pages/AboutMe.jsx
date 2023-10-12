@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import "../styles/AboutMe.css";
+
 
 function AboutMe() {
   return (
@@ -6,7 +8,7 @@ function AboutMe() {
       <div className="about">
         <h2> Zachary Lyons</h2>
         <div className="prompt">
-          <p>TEST</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deleniti quaerat itaque corrupti, cumque necessitatibus illum consequatur laudantium laboriosam laborum! Placeat a nobis, veniam cumque assumenda quia unde tempora voluptatibus!</p>
         </div>
       </div>
       <div className="skills">
