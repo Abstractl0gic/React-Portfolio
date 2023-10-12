@@ -8,7 +8,7 @@ function AboutMe() {
       <div className="about">
         <h2> Zachary Lyons</h2>
         <div className="prompt">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deleniti quaerat itaque corrupti, cumque necessitatibus illum consequatur laudantium laboriosam laborum! Placeat a nobis, veniam cumque assumenda quia unde tempora voluptatibus!</p>
+          <p>An aspiring web developer looking to build applications to make life easier.</p>
         </div>
       </div>
       <div className="skills">

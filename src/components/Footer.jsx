@@ -9,11 +9,17 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socials">
-        <GitHubIcon />
-        <TwitterIcon />
-        <LinkedInIcon />
+        <a href="https://github.com/Abstractl0gic" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon />
+        </a>
+        <a href="https://twitter.com/AbstractLogic" target="_blank" rel="noopener noreferrer">
+          <TwitterIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/zachary-lyons-b730a9149/" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon />
+        </a>
       </div>
-      <p> &copy; 2023</p>
+      <p>&copy; 2023</p>
     </div>
   );
 }
