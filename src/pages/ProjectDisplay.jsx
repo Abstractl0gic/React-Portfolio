@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import {ProjectList} from '../components/ProjectList';
-import { GitHub } from '@mui/icons-material';
 import'../styles/ProjectDisplay.css'
 
 
@@ -13,9 +12,11 @@ function ProjectDisplay() {
         <h1> {project.name}</h1>
         <img src={project.image} />
         <p>
+          <b>Description:</b> {project.description}
+        </p>
+        <p>
           <b>Skills:</b> {project.skills}
         </p>
-        <GitHub />
       </div>
     );
   }

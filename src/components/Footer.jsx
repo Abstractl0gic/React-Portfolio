@@ -19,7 +19,7 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p>&copy; 2023</p>
+      <p>&copy; 2024</p>
     </div>
   );
 }
